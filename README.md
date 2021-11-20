@@ -7,4 +7,4 @@ Language Models trained with LSTM using the Lord of The Rings trilogy corpus.
     
     2. **`categorical_crossentropy` model or One-Hot Encoding model** where the input sentences were vectorized into one-hot encoded arrays, yielding input shape of (`MAX_SEQ_LEN`, `N_UNIQUE_CHARS`), where `MAX_SEQ_LEN` is the maximum sequence of the input sentences (Tx). For each of the individual sequence in the `MAX_SEQ_LEN` there would be corresponding one-hot-encoded vector of length `N_UNIQUE_CHARS` where N_UNIQUE_CHARS` is the unique characters found in the corpus.
 
-### Word Level modeling (In progress)
+In progress: Word Level modeling
